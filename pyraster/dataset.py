@@ -1,7 +1,5 @@
-import gdal
-import gdalconst
+from osgeo import gdal, gdalconst, ogr
 import os
-import ogr
 
 
 def polygon_to_raster(

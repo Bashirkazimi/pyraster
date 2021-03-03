@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1.3'
+VERSION = '0.1.4'
 PACKAGE_NAME = 'pyraster'
 AUTHOR = 'Bashir Kazimi'
 AUTHOR_EMAIL = 'kazimibashir907@gmail.com'
@@ -12,14 +12,12 @@ URL = 'https://github.com/bashirkazimi/pyraster'
 LICENSE = 'Apache License 2.0'
 DESCRIPTION = 'Python tools for processing raster and vector data for deep learning applications.'
 LONG_DESCRIPTION = (HERE / "README.md").read_text()
-LONG_DESC_TYPE = ""
+LONG_DESC_TYPE = "This will only work if you have GDAL installed!"
 
 INSTALL_REQUIRES = [
-      'GDAL',
 ]
 
 setup(name=PACKAGE_NAME,
-      python_requires='<=3.7.7',
       version=VERSION,
       description=DESCRIPTION,
       long_description=LONG_DESCRIPTION,
