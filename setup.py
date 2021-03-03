@@ -10,9 +10,9 @@ AUTHOR_EMAIL = 'kazimibashir907@gmail.com'
 URL = 'https://github.com/bashirkazimi/pyraster'
 
 LICENSE = 'Apache License 2.0'
-DESCRIPTION = 'Python tools for processing raster and vector data for deep learning applications.'
+DESCRIPTION = 'Python tools for processing raster and vector data for deep learning applications. GDAL needs to be installed already.'
 LONG_DESCRIPTION = (HERE / "README.md").read_text()
-LONG_DESC_TYPE = "This will only work if you have GDAL installed!"
+LONG_DESC_TYPE = ""
 
 INSTALL_REQUIRES = [
 ]
